@@ -1,0 +1,39 @@
+# === VisionPort .gitignore ===
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Model weights & large binaries
+*.pt
+*.pth
+*.onnx
+*.engine
+*.bin
+*.pkl
+
+# Datasets
+data/
+
+# Python caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Reports (regenerable)
+env_report.md
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
