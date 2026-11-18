@@ -40,6 +40,7 @@ annotations = [
     {"id": 1, "image_id": 1, "category_id": 1, "bbox": [100, 180, 260, 150], "area": 39000,  "iscrowd": 0},
     {"id": 2, "image_id": 1, "category_id": 3, "bbox": [500, 200,  60, 160], "area":  9600,  "iscrowd": 0},
     {"id": 3, "image_id": 1, "category_id": 2, "bbox": [700, 300, 120, 140], "area": 16800,  "iscrowd": 0},
+    {"id": 13,"image_id": 1, "category_id": 5, "bbox": [920, 190, 220, 160], "area": 35200,  "iscrowd": 0},
     {"id": 4, "image_id": 2, "category_id": 4, "bbox": [200, 150, 400, 300], "area": 120000, "iscrowd": 0},
     {"id": 5, "image_id": 2, "category_id": 5, "bbox": [800, 250, 300, 200], "area":  60000, "iscrowd": 0},
     {"id": 6, "image_id": 3, "category_id": 1, "bbox": [100, 180, 260, 150], "area": 39000,  "iscrowd": 0},
