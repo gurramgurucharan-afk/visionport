@@ -33,6 +33,7 @@ images = [
     {"id": 1, "file_name": "traffic_001.jpg", "width": 1280, "height": 720},
     {"id": 2, "file_name": "traffic_002.jpg", "width": 1280, "height": 720},
     {"id": 3, "file_name": "traffic_003.jpg", "width": 1280, "height": 720},
+    {"id": 4, "file_name": "traffic_004.jpg", "width": 1280, "height": 720},
 ]
 # bbox = [x, y, width, height], x and y = top-left corner, in pixels
 annotations = [
@@ -44,6 +45,10 @@ annotations = [
     {"id": 6, "image_id": 3, "category_id": 1, "bbox": [100, 180, 260, 150], "area": 39000,  "iscrowd": 0},
     {"id": 7, "image_id": 3, "category_id": 2, "bbox": [700, 300, 120, 140], "area": 16800,  "iscrowd": 0},
     {"id": 8, "image_id": 3, "category_id": 4, "bbox": [200, 150, 400, 300], "area": 120000, "iscrowd": 0},
+    {"id": 9, "image_id": 4, "category_id": 1, "bbox": [ 80, 100, 300, 180], "area": 54000,  "iscrowd": 0},
+    {"id":10, "image_id": 4, "category_id": 3, "bbox": [450, 200,  70, 180], "area": 12600,  "iscrowd": 0},
+    {"id":11, "image_id": 4, "category_id": 5, "bbox": [700, 180, 350, 220], "area": 77000,  "iscrowd": 0},
+    {"id":12, "image_id": 4, "category_id": 2, "bbox": [300, 420, 130, 160], "area": 20800,  "iscrowd": 0},
 ]
  
 fill = {1: (112, 110, 190),   # car        — blue-purple
