@@ -46,8 +46,11 @@ annotations = [
     {"id": 8, "image_id": 3, "category_id": 4, "bbox": [200, 150, 400, 300], "area": 120000, "iscrowd": 0},
 ]
  
-fill = {1: (120, 120, 200), 2: (120, 200, 120), 3: (200, 160, 100),
-        4: (200, 120, 120), 5: (150, 150, 150)}
+fill = {1: (112, 110, 190),   # car        — blue-purple
+        2: ( 95, 185, 105),   # motorcycle — green
+        3: (185, 148,  70),   # pedestrian — golden brown
+        4: (200, 120, 120),   # bus        — red
+        5: (150, 150, 150)}   # truck      — grey
 
 for info in images:
     canvas = Image.new("RGB", (info["width"], info["height"]), (225, 225, 225))
